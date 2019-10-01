@@ -3,6 +3,8 @@
 * [Introduction](README.md)
 * [Getting Started](getting-started.md)
 * [Support Server](support-server.md)
+* [Frequently Asked Questions](frequently-asked-questions.md)
+* [Premium](premium.md)
 
 ## Plugins
 
