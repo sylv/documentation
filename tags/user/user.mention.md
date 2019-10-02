@@ -35,7 +35,7 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
-{user.addrole;Humans;#1058}
+{user.addrole;Humans;Sylver#1058}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
