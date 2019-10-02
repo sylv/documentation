@@ -2,7 +2,7 @@
 description: How do I use tags? What can tags do?
 ---
 
-# Tags
+# Introduction to Tags
 
 Tags are essentially placeholders with extra steps. They can range from being just that, simple placeholders, to complicated statements. While the main use for tags are in [Actions](../plugins/actions.md), they are not limited to them. Anywhere the [Tag Editor](tag-editor.md) shows up, most tags will work.   
 

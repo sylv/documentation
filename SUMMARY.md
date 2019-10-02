@@ -22,6 +22,6 @@
 
 ## Tags
 
-* [Tags](tags/tags.md)
+* [Introduction to Tags](tags/tags.md)
 * [Tag Editor](tags/tag-editor.md)
 
