@@ -24,4 +24,6 @@
 
 * [Introduction to Tags](tags/tags.md)
 * [Tag Editor](tags/tag-editor.md)
+* [{user}](tags/user/README.md)
+  * [user.addrole \[role\] &lt;user&gt;](tags/user/user.mention.md)
 
