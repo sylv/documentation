@@ -8,9 +8,9 @@ The levels plugin lets users gain roles by sending messages. When they send a me
 
 You can use the level calculator to get rough information on how long a level takes to achieve [https://atlasbot.xyz/level-calculator](https://atlasbot.xyz/level-calculator). Keep in mind that leveling is slow - level 50 would take years to reach for the average member.
 
-Each server gets their own leaderboard for levels, which you can access by doing `a!leaderboard` and following the link it provides.
+Levels respect the plugins own restrictions. If a user has a role that is blacklisted from the Levels plugin, they won't earn experience. If the user is sending messages in a channel that is whitelisted, the user will only earn experience in that channel and no others. Members in a voice channel do not gain experience, and such are unaffected by restrictions.
 
-Members in a voice channel do not gain experience.
+Each server gets their own leaderboard for levels, which you can access by doing `a!leaderboard` and following the link it provides.
 
 Adding a channel to the blacklist will stop the plugins commands from being used and will prevent users in that channel from gaining experience. Adding a role will prevent users in the role from earning experience and using the plugins commands.
 

@@ -6,11 +6,11 @@ description: Give a server member a role.
 
 This tag is used to give a member a role. For Atlas to be able to dish out roles, it has to be above the target role and must have permissions to assign roles.
 
-### [Context Requirements](../tags.md#context-requirements)
+## [Context Requirements](../tags.md#context-requirements)
 
 `user`, `guild` and `settings`
 
-### Examples
+## Examples
 
 {% tabs %}
 {% tab title="Basic" %}
@@ -49,8 +49,4 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% endcode-tabs %}
 {% endtab %}
 {% endtabs %}
-
-
-
-
 
