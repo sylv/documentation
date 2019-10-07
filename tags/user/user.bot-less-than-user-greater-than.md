@@ -1,14 +1,14 @@
 ---
-description: Add a role to the target user
+description: Whether the target user is a bot or not
 ---
 
-# user.addrole \[role\] &lt;user&gt;
+# user.bot &lt;user&gt;
 
-This tag is used to give a member a role. For Atlas to be able to dish out roles, it has to be above the target role and must have permissions to assign roles.
+This tag will return true if the user is a bot and false under any other circumstance.
 
 ## [Context Requirements](../tags.md#context-requirements)
 
-`user`, `guild` and `settings`
+`user` and `guild`
 
 ## Examples
 
@@ -17,7 +17,7 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
-{user.addrole;Humans}
+{user.bot;Atlas}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -25,17 +25,17 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
-
+true
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 {% endtab %}
 
-{% tab title="Specific User" %}
+{% tab title="" %}
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
-{user.addrole;Humans;Sylver#1058}
+{user.bot}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -43,7 +43,7 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
-
+false
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}

@@ -1,14 +1,14 @@
 ---
-description: Add a role to the target user
+description: How much experience the next level requires
 ---
 
-# user.addrole \[role\] &lt;user&gt;
+# user.nextLevelXP &lt;user&gt;
 
-This tag is used to give a member a role. For Atlas to be able to dish out roles, it has to be above the target role and must have permissions to assign roles.
+This tag will return how much experience the upcoming level for the user requires. You might want [{user.remainingXP}](user.remainingxp-less-than-user-greater-than.md) instead. Apart of the [Levels ](../../plugins/levels.md)plugin.
 
 ## [Context Requirements](../tags.md#context-requirements)
 
-`user`, `guild` and `settings`
+`user` and `guild`
 
 ## Examples
 
@@ -17,7 +17,7 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
-{user.addrole;Humans}
+{user.nextLevelXP}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -25,17 +25,19 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
-
+155
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 {% endtab %}
 
-{% tab title="Specific User" %}
+{% tab title="More XP" %}
+
+
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
-{user.addrole;Humans;Sylver#1058}
+{user.levelXP}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -43,10 +45,12 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
-
+1348
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 {% endtab %}
 {% endtabs %}
+
+
 

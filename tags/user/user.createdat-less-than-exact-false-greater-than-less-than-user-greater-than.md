@@ -1,14 +1,14 @@
 ---
-description: Add a role to the target user
+description: The time the users account was created
 ---
 
-# user.addrole \[role\] &lt;user&gt;
+# user.createdAt &lt;exact=false&gt; &lt;user&gt;
 
-This tag is used to give a member a role. For Atlas to be able to dish out roles, it has to be above the target role and must have permissions to assign roles.
+This tag will return the time a user's account was created. "exact" determines whether to include hours:minutes or not.
 
 ## [Context Requirements](../tags.md#context-requirements)
 
-`user`, `guild` and `settings`
+`user` and `settings`
 
 ## Examples
 
@@ -17,7 +17,7 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
-{user.addrole;Humans}
+{user.createdAt}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -25,17 +25,17 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
-
+Nov 4, 2015
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 {% endtab %}
 
-{% tab title="Specific User" %}
+{% tab title="Exact" %}
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
-{user.addrole;Humans;Sylver#1058}
+{user.createdAt;true}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -43,10 +43,12 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
-
+Nov 4, 2015, 7:53 AM
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 {% endtab %}
 {% endtabs %}
+
+
 

@@ -6,11 +6,11 @@ description: Democracies are flawless
 
 Suggestions are a powerful way to let members have their say. They can be used for anything - suggesting new features for the server, for your product, or whatever you feel like.
 
-![](../.gitbook/assets/rg7x3.png) 
+![](../.gitbook/assets/rg7x3.png)
 
-### Options
+## Options
 
-You can provide a custom suggestion format, which controls what Atlas will send to the suggestion channel once a suggestion has been verified. This supports most tags, including the {suggestion} group. 
+You can provide a custom suggestion format, which controls what Atlas will send to the suggestion channel once a suggestion has been verified. This supports most tags, including the {suggestion} group.
 
 "Suggestion Channel" is where suggestions will end up once they've been approved. If a message is sent to the suggestion channel, the message will be submitted as a suggestion as though the author ran "a!suggest".
 
@@ -20,5 +20,5 @@ You can provide a custom suggestion format, which controls what Atlas will send 
 
 "Direct-message updates" controls whether Atlas will notify the user when their suggestion is awaiting verification, approved or denied.
 
-"Self-vote prevention" will remove reactions from the suggestion author on their own suggestion. 
+"Self-vote prevention" will remove reactions from the suggestion author on their own suggestion.
 

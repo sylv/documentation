@@ -1,14 +1,14 @@
 ---
-description: Add a role to the target user
+description: The users nickname
 ---
 
-# user.addrole \[role\] &lt;user&gt;
+# user.nickname &lt;user&gt;
 
-This tag is used to give a member a role. For Atlas to be able to dish out roles, it has to be above the target role and must have permissions to assign roles.
+Returns the users nickname. If the user does not have a nickname, this tag will use their username instead.
 
 ## [Context Requirements](../tags.md#context-requirements)
 
-`user`, `guild` and `settings`
+`user` and `settings`
 
 ## Examples
 
@@ -17,7 +17,7 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
-{user.addrole;Humans}
+{user.nickname}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -25,17 +25,17 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
-
+ihaveanickname
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 {% endtab %}
 
-{% tab title="Specific User" %}
+{% tab title="Users without a Nickname" %}
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
-{user.addrole;Humans;Sylver#1058}
+{user.nickname}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -43,10 +43,12 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
-
+Sylver
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 {% endtab %}
 {% endtabs %}
+
+
 

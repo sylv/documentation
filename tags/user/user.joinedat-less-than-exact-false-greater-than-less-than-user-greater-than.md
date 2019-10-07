@@ -1,14 +1,14 @@
 ---
-description: Add a role to the target user
+description: When the user joined the server
 ---
 
-# user.addrole \[role\] &lt;user&gt;
+# user.joinedAt &lt;exact=false&gt; &lt;user&gt;
 
-This tag is used to give a member a role. For Atlas to be able to dish out roles, it has to be above the target role and must have permissions to assign roles.
+This tag will return the time the user joined the server. Functionally the same as [{user.createdAt}](user.createdat-less-than-exact-false-greater-than-less-than-user-greater-than.md).
 
 ## [Context Requirements](../tags.md#context-requirements)
 
-`user`, `guild` and `settings`
+`user` and `settings`
 
 ## Examples
 
@@ -17,7 +17,7 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
-{user.addrole;Humans}
+{user.joinedAt}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -25,17 +25,17 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
-
+Nov 4, 2015
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 {% endtab %}
 
-{% tab title="Specific User" %}
+{% tab title="Exact" %}
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
-{user.addrole;Humans;Sylver#1058}
+{user.joinedAt;true}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -43,10 +43,12 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
-
+Nov 4, 2015, 7:53 AM
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 {% endtab %}
 {% endtabs %}
+
+
 
