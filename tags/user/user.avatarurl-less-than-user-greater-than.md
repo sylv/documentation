@@ -1,14 +1,14 @@
 ---
-description: Add a role to the target user
+description: The target users avatar url
 ---
 
-# user.addrole \[role\] &lt;user&gt;
+# user.avatarURL &lt;user&gt;
 
-This tag is used to give a member a role. For Atlas to be able to dish out roles, it has to be above the target role and must have permissions to assign roles.
+This tag will get the target user's avatar URL from Discord. If the user does not have an avatar, it will default to Discord's default avatars. [Output format](https://discordapp.com/developers/docs/reference#image-formatting-cdn-endpoints%20)
 
 ## [Context Requirements](../tags.md#context-requirements)
 
-`user`, `guild` and `settings`
+`user` and `guild`
 
 ## Examples
 
@@ -17,7 +17,7 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
-{user.addrole;Humans}
+{user.avatarURL}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -25,7 +25,7 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
-
+https://cdn.discordapp.com/avatars/111372124383428608/a_db60101ca8c6b08e7e1d1ffb23fe0326.gif?size=128
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -35,7 +35,7 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
-{user.addrole;Humans;Sylver#1058}
+{user.avatarURL;Sylver}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -43,6 +43,7 @@ This tag is used to give a member a role. For Atlas to be able to dish out roles
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
+https://cdn.discordapp.com/avatars/111372124383428608/8ab12121b57c7a462389a8d1009e7904.png?size=256
 
 ```
 {% endcode-tabs-item %}

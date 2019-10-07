@@ -6,9 +6,9 @@ description: Spice up your server with fun commands and games
 
 The Fun plugin adds mostly just fun and usually stupid commands. The only notable feature it adds is a starboard.
 
-### Starboard
+## Starboard
 
 The starboard lets users highlight messages they enjoy. Simply set a channel and react to a message with a ⭐ emoji and Atlas will send a copy of the message to the starboard channel.
 
-![](../.gitbook/assets/l5vil.png) 
+![](../.gitbook/assets/l5vil.png)
 

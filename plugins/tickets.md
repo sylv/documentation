@@ -6,13 +6,11 @@ description: >-
 
 # Tickets
 
-Tickets let members in your server privately contact staff or your own support team. 
+Tickets let members in your server privately contact staff or your own support team.
 
-### Options
+## Options
 
 "Message" controls the initial message Atlas sends to new messages. Ideally, this should contain some basic information for the user.
 
 "Support Role" will be added to new tickets. Anyone with the support role can view and reply to new tickets.
-
-
 
