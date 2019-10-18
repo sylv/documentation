@@ -1,0 +1,6 @@
+---
+description: Emoji utilities
+---
+
+# {emoji}
+
