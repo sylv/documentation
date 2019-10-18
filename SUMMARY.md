@@ -46,4 +46,9 @@
   * [user.bot &lt;user&gt;](tags/user/user.bot-less-than-user-greater-than.md)
   * [user.removerole \[role\] &lt;user&gt;](tags/user/user.removerole-role-less-than-user-greater-than.md)
   * [user.addrole \[role\] &lt;user&gt;](tags/user/user.mention.md)
+* [{emoji}](tags/emoji/README.md)
+  * [emoji.char \[query\]](tags/emoji/emoji.char-query.md)
+  * [emoji.id \[query\]](tags/emoji/emoji.id-less-than-query-greater-than.md)
+  * [emoji.name \[query\]](tags/emoji/emoji.name-query.md)
+  * [emoji.category \[query\]](tags/emoji/emoji.category-query.md)
 
