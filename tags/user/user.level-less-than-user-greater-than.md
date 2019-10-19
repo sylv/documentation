@@ -32,5 +32,3 @@ This tag will return the user's level. Apart of the [Levels ](../../plugins/leve
 {% endtab %}
 {% endtabs %}
 
-
-

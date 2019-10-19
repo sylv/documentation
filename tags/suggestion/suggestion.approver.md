@@ -1,23 +1,23 @@
 ---
-description: The discord-compatible emoji character
+description: User ID of the user who verified the suggestion
 ---
 
-# emoji.char \[query\]
+# suggestion.approver
 
-This tag will get the ID of the input emoji. If the &lt;query&gt; resolves to a non-guild emoji, it defaults to {emoji.char}.
+This tag returns the user ID of whoever verified the suggestion. If the suggestion was not verified, this will return nothing.
 
 ## [Context Requirements](../tags.md#context-requirements)
 
-None
+`suggestion`
 
 ## Examples
 
 {% tabs %}
-{% tab title="With Unicode Emoji" %}
+{% tab title="Direct" %}
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
-{emoji.char;smile}
+{suggestion.approver}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -25,17 +25,17 @@ None
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
-😄
+111372124383428608
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 {% endtab %}
 
-{% tab title="With Guild Emoji" %}
+{% tab title="Mention the Approver" %}
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
-{emoji.char;fortniteepicf}
+{user.mention;{suggestion.approver}}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -43,7 +43,7 @@ None
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
-<:fortniteepicf:538223757291028480>
+@Sylver#1058
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}

@@ -50,5 +50,3 @@ Sylver
 {% endtab %}
 {% endtabs %}
 
-
-

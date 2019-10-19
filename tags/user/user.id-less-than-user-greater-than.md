@@ -32,5 +32,3 @@ Returns the users unique identifier, otherwise known as a [snowflake](https://di
 {% endtab %}
 {% endtabs %}
 
-
-

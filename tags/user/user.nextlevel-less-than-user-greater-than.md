@@ -36,5 +36,3 @@ This assumes the user is currently level one.
 {% endtab %}
 {% endtabs %}
 
-
-

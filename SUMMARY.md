@@ -51,4 +51,8 @@
   * [emoji.id \[query\]](tags/emoji/emoji.id-less-than-query-greater-than.md)
   * [emoji.name \[query\]](tags/emoji/emoji.name-query.md)
   * [emoji.category \[query\]](tags/emoji/emoji.category-query.md)
+* [{suggestion}](tags/suggestion/README.md)
+  * [suggestion.content](tags/suggestion/suggestion.content.md)
+  * [suggestion.author](tags/suggestion/suggestion.author.md)
+  * [suggestion.approver](tags/suggestion/suggestion.approver.md)
 

@@ -60,5 +60,3 @@ For this example, we assume the target user has direct-messaging disabled.
 {% endtab %}
 {% endtabs %}
 
-
-

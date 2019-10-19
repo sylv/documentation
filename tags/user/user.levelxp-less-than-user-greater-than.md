@@ -32,8 +32,6 @@ This tag will return the user's experience count. Useful with level utilities in
 {% endtab %}
 
 {% tab title="More XP" %}
-
-
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
@@ -51,6 +49,4 @@ This tag will return the user's experience count. Useful with level utilities in
 {% endcode-tabs %}
 {% endtab %}
 {% endtabs %}
-
-
 

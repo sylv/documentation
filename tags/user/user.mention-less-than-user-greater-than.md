@@ -35,38 +35,10 @@ This tag will mention the target user by taking their identifier and wrapping it
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
-```{user.mention}```
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-
-{% code-tabs %}
-{% code-tabs-item title="Output" %}
-```text
-```<@111372124383428608>```
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-{% endtab %}
-
-{% tab title="" %}
-{% code-tabs %}
-{% code-tabs-item title="Input" %}
-```text
-```{user.mention}```
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-
-{% code-tabs %}
-{% code-tabs-item title="Output" %}
-```text
-```<@111372124383428608>```
+```{user.mention}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 {% endtab %}
 {% endtabs %}
-
-
 

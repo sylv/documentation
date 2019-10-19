@@ -76,9 +76,7 @@ This tag will return the color of a user based on their highest role in role hie
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-#### ![](../../.gitbook/assets/ib7wf.png) 
+### ![](../../.gitbook/assets/ib7wf.png)
 {% endtab %}
 {% endtabs %}
-
-
 

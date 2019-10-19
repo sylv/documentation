@@ -1,23 +1,23 @@
 ---
-description: 'The target users discriminator (#1000, #number)'
+description: The content of the suggestion in context.
 ---
 
-# user.discriminator &lt;user&gt;
+# suggestion.content
 
-This tag will get the target user's discriminator, the 4-digit code after their username.
+This tag will return the suggestion "body", aka the actual suggestion.
 
 ## [Context Requirements](../tags.md#context-requirements)
 
-`user` and `settings`
+`suggestion`
 
 ## Examples
 
 {% tabs %}
-{% tab title="Basic" %}
+{% tab title="Direct" %}
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
-{user.discriminator}
+{suggestion.content}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -25,7 +25,7 @@ This tag will get the target user's discriminator, the 4-digit code after their 
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
-1058
+Hey I think it would be pretty lit if you added roblox integration to the bot
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
