@@ -44,6 +44,7 @@ https://cdn.discordapp.com/avatars/111372124383428608/a_db60101ca8c6b08e7e1d1ffb
 {% code-tabs-item title="Output" %}
 ```text
 https://cdn.discordapp.com/avatars/111372124383428608/8ab12121b57c7a462389a8d1009e7904.png?size=256
+
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}

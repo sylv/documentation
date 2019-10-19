@@ -6,6 +6,7 @@ description: Gets the identifier of a random user.
 
 This tag will get the identifier of a random user in the server. You can use it as the last argument to all [{user}](./) tags. No one is excluded, so this tag may pick bots as well as regular users.
 
+  
 Relying on this for something like a giveaway is not ideal due to Atlas not always being able to see everyone in the server at the same time. True random isn't guaranteed as it's practically impossible.
 
 ## [Context Requirements](../tags.md#context-requirements)
@@ -51,4 +52,6 @@ I pick you, Sylver#1058!
 {% endcode-tabs %}
 {% endtab %}
 {% endtabs %}
+
+
 

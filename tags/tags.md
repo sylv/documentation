@@ -12,3 +12,7 @@ Tag names are not case-sensitive, so `{message.authorId}` is the same as `{messa
 
 Context requirements are essentially what the tag needs to run. For example, the `{suggestion}` tag group requires that a suggestion be in the context - for a `Message Create` action there won't be any suggestion to get the data from, so it won't work. Context varies from use to use - depending on the action trigger it could be different. There is no master list of what is available where - most tags should work almost everywhere.
 
+### Actions
+
+Actions are the most common use of tags. You should read the plugin information for actions [here](../plugins/actions.md).
+

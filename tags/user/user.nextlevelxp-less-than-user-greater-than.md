@@ -32,6 +32,8 @@ This tag will return how much experience the upcoming level for the user require
 {% endtab %}
 
 {% tab title="More XP" %}
+
+
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
@@ -49,4 +51,6 @@ This tag will return how much experience the upcoming level for the user require
 {% endcode-tabs %}
 {% endtab %}
 {% endtabs %}
+
+
 

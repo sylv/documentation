@@ -4,7 +4,7 @@ description: 'The target users discriminator (#1000, #number)'
 
 # user.discriminator &lt;user&gt;
 
-This tag will get the target user's discriminator, the 4-digit code after their username.
+This tag will get the target user's discriminator, the 4-digit code after their username. 
 
 ## [Context Requirements](../tags.md#context-requirements)
 
@@ -31,4 +31,6 @@ This tag will get the target user's discriminator, the 4-digit code after their 
 {% endcode-tabs %}
 {% endtab %}
 {% endtabs %}
+
+
 

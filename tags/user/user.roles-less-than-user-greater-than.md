@@ -4,7 +4,7 @@ description: A list of roles the user has
 
 # user.roles &lt;user&gt;
 
-This tag will return a string of role identifiers that the user has, separated by spaces.
+This tag will return a string of role identifiers that the user has, separated by spaces. 
 
 ## [Context Requirements](../tags.md#context-requirements)
 
@@ -31,4 +31,6 @@ This tag will return a string of role identifiers that the user has, separated b
 {% endcode-tabs %}
 {% endtab %}
 {% endtabs %}
+
+
 

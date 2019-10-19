@@ -5,6 +5,11 @@
 * [Support Server](support-server.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
 * [Premium](premium.md)
+* [Untitled](untitled.md)
+
+## How To's
+
+* [Creating Command Aliases](how-tos/creating-command-aliases.md)
 
 ## Plugins
 
@@ -24,14 +29,15 @@
 
 * [Introduction to Tags](tags/tags.md)
 * [Tag Editor](tags/tag-editor.md)
+* [Command Tags](tags/command-tags.md)
 * [{user}](tags/user/README.md)
   * [user.username &lt;user&gt;](tags/user/user.username-less-than-user-greater-than.md)
   * [user.nickname &lt;user&gt;](tags/user/user.nickname-less-than-user-greater-than.md)
   * [user.tag &lt;user&gt;](tags/user/user.tag-less-than-user-greater-than.md)
   * [user.id &lt;user&gt;](tags/user/user.id-less-than-user-greater-than.md)
   * [user.mention &lt;user&gt;](tags/user/user.mention-less-than-user-greater-than.md)
-  * [user.send \[message\] &lt;user&gt;](tags/user/user.send-message-less-than-user-greater-than.md)
   * [user.avatarURL &lt;user&gt;](tags/user/user.avatarurl-less-than-user-greater-than.md)
+  * [user.send \[message\] &lt;user&gt;](tags/user/user.send-message-less-than-user-greater-than.md)
   * [user.random](tags/user/user.random.md)
   * [user.roles &lt;user&gt;](tags/user/user.roles-less-than-user-greater-than.md)
   * [user.remainingXP &lt;user&gt;](tags/user/user.remainingxp-less-than-user-greater-than.md)
@@ -51,8 +57,4 @@
   * [emoji.id \[query\]](tags/emoji/emoji.id-less-than-query-greater-than.md)
   * [emoji.name \[query\]](tags/emoji/emoji.name-query.md)
   * [emoji.category \[query\]](tags/emoji/emoji.category-query.md)
-* [{suggestion}](tags/suggestion/README.md)
-  * [suggestion.content](tags/suggestion/suggestion.content.md)
-  * [suggestion.author](tags/suggestion/suggestion.author.md)
-  * [suggestion.approver](tags/suggestion/suggestion.approver.md)
 

@@ -16,7 +16,7 @@ If you abuse actions or slow the bot down, your server and the action author wil
 
 ## Triggers
 
-* **Command** Triggers when someone does `a!triggercontent`
+* **Command** Triggers when someone does `a!triggercontent`. Takes priority over existing commands or command aliases.
 * **Keyword** Triggers when someone sends a message that containers the trigger content.
 * **Interval** Triggers every`interval content`
 * **Message Reaction Add** Triggers when the `trigger content` reaction 😀 is added to a message. Supports guild emojis.

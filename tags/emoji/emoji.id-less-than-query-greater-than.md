@@ -4,7 +4,7 @@ description: The ID of the emoji
 
 # emoji.id \[query\]
 
-This tag will get the ID of the input emoji. If the &lt;query&gt; resolves to a non-guild emoji, it defaults to {emoji.char}.
+This tag will get the ID of the input emoji. If the &lt;query&gt; resolves to a non-guild emoji, it defaults to {emoji.char}. 
 
 ## [Context Requirements](../tags.md#context-requirements)
 
