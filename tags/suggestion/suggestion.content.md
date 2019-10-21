@@ -1,10 +1,10 @@
 ---
-description: The content of the suggestion in context.
+description: The suggestion text.
 ---
 
 # suggestion.content
 
-This tag will return the suggestion "body", aka the actual suggestion.
+When a suggestion is in context, this tag will get the suggestion contents.
 
 ## [Context Requirements](../tags.md#context-requirements)
 
@@ -13,7 +13,7 @@ This tag will return the suggestion "body", aka the actual suggestion.
 ## Examples
 
 {% tabs %}
-{% tab title="Direct" %}
+{% tab title="Basic" %}
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
@@ -25,7 +25,7 @@ This tag will return the suggestion "body", aka the actual suggestion.
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
-Hey I think it would be pretty lit if you added roblox integration to the bot
+Ban node#2153. Nothing but a stain on the community.
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}

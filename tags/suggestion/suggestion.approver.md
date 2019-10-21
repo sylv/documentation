@@ -1,10 +1,10 @@
 ---
-description: User ID of the user who verified the suggestion
+description: The ID of the user that approved the suggestion.
 ---
 
 # suggestion.approver
 
-This tag returns the user ID of whoever verified the suggestion. If the suggestion was not verified, this will return nothing.
+When a suggestion is in context, this tag will get the user ID of the user who approved the suggestion, if any.
 
 ## [Context Requirements](../tags.md#context-requirements)
 
@@ -13,7 +13,7 @@ This tag returns the user ID of whoever verified the suggestion. If the suggesti
 ## Examples
 
 {% tabs %}
-{% tab title="Direct" %}
+{% tab title="Basic" %}
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
@@ -43,7 +43,7 @@ This tag returns the user ID of whoever verified the suggestion. If the suggesti
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
-@Sylver#1058
+Sylver#1058
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}

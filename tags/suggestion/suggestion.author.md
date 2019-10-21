@@ -1,10 +1,10 @@
 ---
-description: The ID of the user that created the suggestion
+description: The ID of the user that created the suggestion.
 ---
 
 # suggestion.author
 
-This tag will return the ID of the user that created the suggestion.
+When a suggestion is in context, this tag will get the user ID of the user who created the suggestion.
 
 ## [Context Requirements](../tags.md#context-requirements)
 
@@ -13,7 +13,7 @@ This tag will return the ID of the user that created the suggestion.
 ## Examples
 
 {% tabs %}
-{% tab title="Direct" %}
+{% tab title="Basic" %}
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
@@ -25,17 +25,17 @@ This tag will return the ID of the user that created the suggestion.
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
-111372124383428608
+248882595285303306
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 {% endtab %}
 
-{% tab title="Mention the Author" %}
+{% tab title="Mention the Approver" %}
 {% code-tabs %}
 {% code-tabs-item title="Input" %}
 ```text
-{user.author;{suggestion.approver}}
+{user.mention;{suggestion.author}}
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -43,7 +43,7 @@ This tag will return the ID of the user that created the suggestion.
 {% code-tabs %}
 {% code-tabs-item title="Output" %}
 ```text
-@Sylver#1058
+Cykreet#5758
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}

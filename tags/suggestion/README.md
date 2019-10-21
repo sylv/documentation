@@ -1,7 +1,5 @@
 ---
-description: >-
-  Tags for suggestion information. Premium-only. Requires a suggestion in
-  context.
+description: Suggestion meta tags. Only available when a suggestion is in context.
 ---
 
 # {suggestion}
